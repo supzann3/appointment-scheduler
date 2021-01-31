@@ -9,7 +9,7 @@ This is an appointment scheduler, follow these steps to run the container in doc
 
 3. Once within the image run this to install all dependencies and libraries `bundle update && bundle install`
 
-4. Migrate tables `rake db:migrate` and `db:test:prepare`
+4. Migrate tables `rake db:migrate` and `rake db:test:prepare`
 
 5. To start the server run `rails server -p $PORT -b 0.0.0.0`
 *note if you have any other docker images running on the same port you will need to delete them before running this
