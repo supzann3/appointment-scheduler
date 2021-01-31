@@ -23,3 +23,6 @@ https://httpie.io/ this is the tool I've used and the example params are the fol
 1. run command `bundle exec rspec` to run all existing tests
 
 2. To have an overview of the tests see the spec folder located at the root
+
+* TODO
+1. Test cancel and changing user's appointment endpoint
